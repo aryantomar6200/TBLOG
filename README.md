@@ -1,16 +1,175 @@
-# React + Vite
+# 📝 TBlog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, minimalist tech blogging platform where users can create, edit, and share articles related to technology.
 
-Currently, two official plugins are available:
+Built with React and Appwrite, TBlog provides a clean writing experience with authentication, rich text editing, image uploads, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 User Authentication (Sign Up / Login / Logout)
+- ✍️ Create, Edit & Delete Blog Posts
+- 🖼️ Upload Featured Images
+- 📝 Rich Text Editor (TinyMCE)
+- 👤 Protected Routes
+- 📱 Fully Responsive Design
+- 🎨 Modern UI built with Tailwind CSS
+- 📄 View Individual Blog Posts
+- 🔎 Browse All Published Posts
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- React Router DOM
+- Redux Toolkit
+- React Hook Form
+- Tailwind CSS
+- TinyMCE
+
+### Backend
+
+- Appwrite
+  - Authentication
+  - Database
+  - Storage
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── appwrite/
+│   ├── authService.js
+│   ├── databaseService.js
+│   └── storageService.js
+│
+├── components/
+│
+├── pages/
+│
+├── store/
+│
+├── config/
+│
+├── assets/
+│
+└── main.jsx
+```
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory.
+
+```env
+VITE_APPWRITE_URL=
+VITE_APPWRITE_PROJECT_ID=
+VITE_APPWRITE_DATABASE_ID=
+VITE_APPWRITE_COLLECTION_ID=
+VITE_APPWRITE_BUCKET_ID=
+```
+
+Fill these values using your Appwrite project credentials.
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/TBlog.git
+```
+
+Navigate into the project
+
+```bash
+cd TBlog
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🏗️ Build
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 📸 Screenshots
+
+_Add screenshots of your application here._
+
+Examples:
+
+- Home Page
+- All Posts
+- Post Details
+- Create Post
+- Login
+- Signup
+
+---
+
+## 🎯 Future Improvements
+
+- ❤️ Like Posts
+- 💬 Comment System
+- 🔍 Search Posts
+- 🏷️ Categories & Tags
+- 🌙 Dark Mode
+- 👤 User Profiles
+- 📊 Dashboard
+- 🔖 Bookmarks
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Aryan Tomar**
+
+GitHub: https://github.com/your-github-username
+
+LinkedIn: https://linkedin.com/in/your-linkedin
