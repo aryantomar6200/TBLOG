@@ -1,8 +1,6 @@
 # 📝 TBlog
 
-A modern, minimalist tech blogging platform where users can create, edit, and share articles related to technology.
-
-Built with React and Appwrite, TBlog provides a clean writing experience with authentication, rich text editing, image uploads, and responsive design.
+A modern full-stack blogging platform built with React and Appwrite featuring authentication, rich text editing, image uploads, protected routes, and responsive UI.
 
 ---
 
